@@ -26,7 +26,7 @@ An authentic retro cyber experience featuring interactive text-based dungeon que
 
 ## 📸 Preview
 
-![Chamber of HTML Preview](https://i.pinimg.com/1200x/5f/22/fd/5f22fdffebbf623e7941cc4d297551a8.jpg)
+![Chamber of HTML Preview](preview.png)
 
 ---
 
