@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Arcade & 90s Terminal Hub</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Step into the 90s Cyber Lounge. Play the interactive server room text quest, build your hero avatar, check system monitors, and enjoy vintage ASCII art.">
+    <meta name="keywords" content="retro arcade, 90s website, text adventure game, retro terminal, ASCII art, pure HTML, web nostalgia">
+    <meta name="author" content="Retro Terminal Project">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Social Media Sharing -->
+    <meta property="og:title" content="Retro Arcade & 90s Terminal Hub">
+    <meta property="og:description" content="An authentic 90s retro cyber lounge featuring interactive mini-quests, character creation, and vintage terminal vibes.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.pinimg.com/1200x/5f/22/fd/5f22fdffebbf623e7941cc4d297551a8.jpg">
+</head>
+<body style="background-image: url('https://i.pinimg.com/736x/40/49/35/4049354b49ac84bac8ff03b622ba21f7.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center;" text="#00ff66" link="#ffff00" vlink="#ff00ff">
+
+    <!-- Top News Ticker -->
+    <marquee bgcolor="#003311" scrollamount="12">
+        <font size="4">
+            ⚡ <b>SYSTEM ONLINE</b> | WELCOME TO RETRO HUB v1.0 | HIGH SCORE: 99,940 | INSERT COIN TO PLAY ⚡
+        </font>
+    </marquee>
+
+    <br>
+
+    <!-- Header & Navigation -->
+    <header>
+        <center>
+            <h1>👾 RETRO ARCADE & TERMINAL HUB 👾</h1>
+            <p>Welcome to the 90s cyber lounge. Explore the dungeon, build your character, or check system logs.</p>
+            
+            <nav>
+                <table border="2" cellpadding="8" bgcolor="#1a1a1a">
+                    <tr>
+                        <td><a href="#quest"><b>🎮 Play Quest</b></a></td>
+                        <td><a href="#creator"><b>🧙 Character Builder</b></a></td>
+                        <td><a href="#terminal"><b>💻 System Stats</b></a></td>
+                        <td><a href="#art"><b>🎨 ASCII Gallery</b></a></td>
+                        <td><a href="#cheats"><b>🕹️ Shortcut Cheats</b></a></td>
+                    </tr>
+                </table>
+            </nav>
+        </center>
+    </header>
+
+    <br><hr color="#00ff66" size="2"><br>
+
+    <main>
+
+        <!-- Section 1: Text Adventure Game (With Custom Box Background) -->
+        <section id="quest">
+            <center>
+                <h2>🎮 MINI QUEST: ESCAPE THE SERVER ROOM</h2>
+                <p><i>Click the choices to explore and progress through the room.</i></p>
+
+                <table border="2" cellpadding="14" width="75%" style="background-image: url('https://i.pinimg.com/1200x/5f/22/fd/5f22fdffebbf623e7941cc4d297551a8.jpg'); background-size: cover; background-position: center; border: 2px solid #00ff66;">
+                    <tr>
+                        <td style="background-color: rgba(0, 0, 0, 0.65);">
+                            <h3>📍 You are standing at the entrance of an abandoned server room.</h3>
+                            <p>Cables hang from the ceiling. A green light blinks in the far corner.</p>
+                            
+                            <details>
+                                <summary><b>👉 [Option A] Inspect the blinking green server rack</b></summary>
+                                <p>You walk over. A terminal screen prompts: <code>"PASSWORD REQUIRED"</code>.</p>
+                                
+                                <details style="margin-left: 20px;">
+                                    <summary>Type "admin123" into the terminal</summary>
+                                    <p>🎉 <b>ACCESS GRANTED!</b> You unlocked the secret door to the server vault!</p>
+                                </details>
+                                
+                                <details style="margin-left: 20px;">
+                                    <summary>Kick the server to see if it responds</summary>
+                                    <p>💥 <b>OUCH!</b> You stubbed your toe and triggered the security alarm. You lose 20 HP!</p>
+                                </details>
+                            </details>
+
+                            <br>
+
+                            <details>
+                                <summary><b>👉 [Option B] Open the heavy wooden door on the left</b></summary>
+                                <p>You open the door and encounter a wild <b>Bug Monster</b> 🐛!</p>
+                                
+                                <details style="margin-left: 20px;">
+                                    <summary>Cast spell: <kbd>Ctrl</kbd> + <kbd>Z</kbd> (Undo)</summary>
+                                    <p>✨ <b>SUCCESS!</b> The bug vanished instantly!</p>
+                                </details>
+                                
+                                <details style="margin-left: 20px;">
+                                    <summary>Throw your coffee mug at it</summary>
+                                    <p>☕ The bug drank the coffee, gained 200% speed, and wrote 50 lines of broken code!</p>
+                                </details>
+                            </details>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+
+        <br><hr color="#00ff66" size="2"><br>
+
+        <!-- Section 2: Character Creation (With Custom Box Background) -->
+        <section id="creator">
+            <center>
+                <h2>🧙 HERO CREATION PORTAL</h2>
+
+                <form action="#" method="get">
+                    <table border="2" cellpadding="12" width="75%" style="background-image: url('https://i.pinimg.com/1200x/5f/22/fd/5f22fdffebbf623e7941cc4d297551a8.jpg'); background-size: cover; background-position: center; border: 2px solid #00ff66;">
+                        <tr>
+                            <td style="background-color: rgba(0, 0, 0, 0.65);">
+                                <p>
+                                    <label for="char-name"><b><font color="#00ff66">Character Name:</font></b></label><br>
+                                    <input type="text" id="char-name" name="char-name" placeholder="e.g., PixelKnight" required>
+                                </p>
+
+                                <p>
+                                    <label for="hero-class"><b><font color="#00ff66">Choose Class:</font></b></label><br>
+                                    <select id="hero-class" name="hero-class">
+                                        <option>90s Netrunner</option>
+                                        <option>Cyber Mage</option>
+                                        <option>Keyboard Warrior</option>
+                                    </select>
+                                </p>
+
+                                <p>
+                                    <label for="color"><b><font color="#00ff66">Armor Glow Color:</font></b></label><br>
+                                    <input type="color" id="color" name="color" value="#00ff66">
+                                </p>
+
+                                <p>
+                                    <label for="agility"><b><font color="#00ff66">Agility Level (0 to 100):</font></b></label><br>
+                                    <font color="#00ff66">Slow</font> <input type="range" id="agility" name="agility" min="0" max="100" value="85"> <font color="#00ff66">Fast</font>
+                                </p>
+
+                                <p>
+                                    <b><font color="#00ff66">Starting Inventory (Select 2):</font></b><br>
+                                    <input type="checkbox" id="item1" name="item1" checked> <label for="item1"><font color="#00ff66">Floppy Disk</font></label><br>
+                                    <input type="checkbox" id="item2" name="item2"> <label for="item2"><font color="#00ff66">Walkman</font></label><br>
+                                    <input type="checkbox" id="item3" name="item3"> <label for="item3"><font color="#00ff66">Rubber Duck</font></label>
+                                </p>
+
+                                <center>
+                                    <input type="submit" value="⚡ SPAWN HERO ⚡">
+                                    <input type="reset" value="Reset Form">
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </center>
+        </section>
+
+        <br><hr color="#00ff66" size="2"><br>
+
+        <!-- Section 3: Hardware Monitor -->
+        <section id="terminal">
+            <center>
+                <h2>💻 SYSTEM STATUS METERS</h2>
+                <table border="2" cellpadding="8" bgcolor="#1e1e1e" width="60%">
+                    <tr>
+                        <td><b>CPU Frequency:</b></td>
+                        <td>
+                            <meter min="0" max="100" low="30" high="80" optimum="50" value="88">88%</meter>
+                            88% (Nominal)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>RAM Utilization:</b></td>
+                        <td>
+                            <progress value="65" max="100"></progress>
+                            65%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Coffee Fuel Reserve:</b></td>
+                        <td>
+                            <meter min="0" max="100" low="20" high="90" optimum="100" value="98">98%</meter>
+                            98% (Optimal)
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+
+        <br><hr color="#00ff66" size="2"><br>
+
+        <!-- Section 4: ASCII Gallery -->
+        <section id="art">
+            <center>
+                <h2>🎨 RETRO ASCII ART SHOWCASE</h2>
+                <table border="2" cellpadding="10" bgcolor="#0d0d0d">
+                    <tr>
+                        <th bgcolor="#003311">Desktop Setup</th>
+                        <th bgcolor="#003311">Arcade Controller</th>
+                    </tr>
+                    <tr>
+                        <td>
+<pre>
+   ._________________.
+   |.---------------.|
+   ||  RETRO TERMIN ||
+   ||  ONLINE       ||
+   ||_______________||
+   /.-.-.-.-.-.-.-.-.\
+  /.-.-.-.-.-.-.-.-.-.\
+ / :::::::::::::::::: \
+/______________________\
+</pre>
+                        </td>
+                        <td>
+<pre>
+     .---.             .---.
+    /     \___________/     \
+   /  .-.   .-------.   .-.  \
+  |  |   |  | SELECT |  | A | |
+  |   '-'   '-------'   '-'   |
+  |     _          _      (B) |
+   \   (_)        (_)        /
+    \                       /
+     '---------------------'
+</pre>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+
+        <br><hr color="#00ff66" size="2"><br>
+
+        <!-- Section 5: Cheats & Shortcuts -->
+        <section id="cheats">
+            <center>
+                <h2>🕹️ USEFUL KEYBOARD SHORTCUTS</h2>
+                <table border="1" cellpadding="8" bgcolor="#1e1e1e">
+                    <tr bgcolor="#003311">
+                        <th>Action</th>
+                        <th>Shortcut</th>
+                        <th>Function</th>
+                    </tr>
+                    <tr>
+                        <td>Quick Save</td>
+                        <td><kbd>Ctrl</kbd> + <kbd>S</kbd></td>
+                        <td>Saves current progress</td>
+                    </tr>
+                    <tr>
+                        <td>Search Page</td>
+                        <td><kbd>Ctrl</kbd> + <kbd>F</kbd></td>
+                        <td>Find text on page</td>
+                    </tr>
+                    <tr>
+                        <td>Fullscreen</td>
+                        <td><kbd>F11</kbd></td>
+                        <td>Toggle browser fullscreen</td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+
+    </main>
+
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+        <hr color="#00ff66">
+        <center>
+            <marquee behavior="alternate" width="300" bgcolor="#002200">
+                ⭐ <b>GAME OVER • INSERT COIN TO RESTART</b> ⭐
+            </marquee>
+            <p><small>&copy; 2026 Retro Terminal Project.</small></p>
+            <p><a href="#">▲ Back to the Top</a></p>
+        </center>
+    </footer>
+
+</body>
+</html>
